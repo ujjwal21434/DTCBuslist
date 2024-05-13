@@ -1,0 +1,897 @@
+Bus Route,Stop_Name,Lat,Long
+133,Narela Terminal,28.851958,77.088107
+133,Police Station Narela,28.853311,77.088548
+133,Safiyabad Crossing,28.854965,77.089322
+133,Ramdev Chowk / Pitori Johad,28.857713,77.092846
+133,Sec A-9 Narela,28.851769,77.097906
+133,Narela Pocket 13 / A-9,28.851771,77.097849
+133,Raja Harish Chandra Hospital,28.840804,77.10202
+133,Munim Ji Ka Bagh,28.83657,77.09201
+133,New Anaj Mandi,28.838193,77.091456
+133,Kurani More,28.840582,77.090589
+133,Maharaja Agrassen School,28.83657,77.079258
+133,Bharat Mata School,28.833186,77.077052
+133,Kaushal Devi Netraheen Ashram,28.825219,77.069668
+133,Sannoth Crossing / Ghoga Crossing,28.819549,77.06355
+133,Jain Bekhunth Mandir,28.811811,77.053975
+133,Bawana JJ Colony CRPF Camp,28.807197,77.048415
+133,Swaroop Nagar GT Road,28.758318,77.148305
+133,Libas Pur GT Road,28.75027,77.15075
+133,Sanjay Gandhi Transport Nagar,28.7402,77.154
+133,Mukarba Chowk,28.735084,77.155874
+133,GTK Depot,28.731117,77.158967
+133,Jahangirpuri GT Road (Metro Station),28.7257,77.163
+133,Mahindra Park,28.721715,77.166162
+133,Sarai Pipal Thala,28.7206,77.1671
+133,Adarsh Nagar Metro Station,28.717467,77.169917
+133,New Sabzi Mandi,28.714415,77.172422
+133,Azadpur Terminal (Bara Bagh Road),28.70653322,77.17927959
+133,Bara Bagh,28.7017,77.1831
+133,Gujranwala Town,28.6995,77.1849
+133,Telephone Exchange,28.6971,77.1869
+133,State Bank Colony,28.6954,77.1883
+133,Gurudwara Nanak Pyau,28.691,77.192
+133,Rana Pratap Bagh,28.68826667,77.1937
+133,Gur Mandi,28.6848,77.1963
+133,Roop Nagar / Shakti Nagar (GT Road),28.682832,77.197614
+133,Clock Tower,28.677617,77.201567
+133,Roshnara Bagh,28.6733,77.2018
+133,Roshnara Road,28.669249,77.20455
+133,Ice Factory (Roshanara Road),28.667538,77.207439
+133,St Stephen Hospital,28.667356,77.215047
+133,Tees Hazari Court,28.666864,77.218926
+135,Delhi Secretariat,28.62795,77.25235
+135,ITO,28.627967,77.244433
+135,Tilak Bridge,28.6253,77.2387
+135,Mandi House,28.625633,77.234
+135,Mandi House,28.625035,77.230571
+135,Kasturba Gandhi Road Crossing,28.623228,77.226725
+135,Firoz Shah Road,28.621,77.2215
+135,Le Meridian Hotel / Rajendra Prasad Road,28.619225,77.217521
+135,Krishi Bhawan,28.616983,77.2137
+135,Red Cross Road,28.618035,77.210453
+135,Aakashwani Bhawan (Imtiyaz Ali Road),28.62065,77.2098
+135,Gurudwara Rakab Ganj Road,28.6209,77.2073
+135,Kendriya Terminal (Church Road),28.617383,77.20395
+135,Najafgarh Terminal,28.615127,76.977508
+135,Jharoda Crossing/Nazafgarh Terminal,28.613617,76.979717
+135,Jharoda Crossing,28.614413,76.98107
+135,Health Centre,28.614155,76.985213
+135,NajafGarh Delhi Gate,28.61269,76.986418
+135,Tuda Mandi,28.612594,76.991382
+135,Nangli Sakrawati,28.614667,77.0034
+135,Nangli Sakrawati Crossing,28.616198,77.007131
+135,Arjun Park,28.61832,77.013185
+135,Chhathh Ghat Park,28.619105,77.015167
+135,Nangli Dairy,28.620035,77.017855
+135,Kakrola Bridge,28.61998,77.024738
+135,Kakrola More,28.61923,77.028823
+135,Kakrola More,28.61911874,77.03179662
+135,Sewak Park Dwarka More Metro Station,28.619591,77.032774
+135,Rama Park,28.619948,77.037062
+135,Mohan Garden,28.62029,77.039178
+135,Nawada,28.620487,77.045475
+135,Kiran Garden,28.620876,77.049338
+135,Om Vihar,28.621241,77.052393
+135,Prem Nagar,28.621946,77.056321
+135,Uttam Nagar,28.623269,77.060947
+135,Uttam Nagar / A1 Janak Puri,28.624813,77.067696
+135,Tilak Pul,28.621617,77.069969
+135,Jivan park,28.620041,77.073165
+135,C-1 Janak Puri,28.618239,77.076935
+135,C-2 Janak Puri,28.616152,77.081383
+135,C2D Janak Puri,28.614365,77.085484
+135,Dabri Crossing (Pankha Road),28.61305,77.088391
+135,Janak Cinema,28.611026,77.093012
+135,Desu Colony Janak Puri,28.610049,77.095367
+135,SagarPur Vashisht Park,28.609265,77.100931
+135,D Block Janak Puri,28.61096,77.103583
+135,Lajwanti Garden,28.614,77.1062
+135,Lajwanti Garden (Carriappa Marg),28.61313,77.109679
+135,Janak Setu,28.6107,77.1139
+135,Supply Depot,28.606783,77.123367
+135,Kirbi Place,28.604833,77.128283
+135,Thimiyan Park,28.602817,77.133517
+135,S O Flats Carriappa Marg,28.600317,77.139733
+135,R R Line,28.596167,77.1504
+135,Golf Club,28.592967,77.158483
+135,Dhaula Kuan,28.592987,77.162867
+135,BBM Cluster Depot,28.704301,77.21131
+135,Sewa Kutir,28.702162,77.209581
+135,GTB Nagar / Haqiqat Nagar,28.698158,77.207636
+135,INS Hostel,28.696197,77.21214
+135,Vishwa Vidyalaya Metro Station,28.695022,77.215318
+135,Mall Road,28.69382,77.218624
+135,Banarsi Daas Estate Timarpur,28.69714,77.220359
+135,Timarpur,28.701025,77.22127
+135,Balak Ram Hospital,28.7054,77.22316667
+135,Police Station Timarpur,28.706947,77.224038
+135,Nehru Vihar Crossing,28.709086,77.22626
+135,Wazirabad Crossing,28.711529,77.228752
+135,Gurudwara Nanak Sar,28.710233,77.241367
+135,Pusta No 1 Sonia Vihar,28.7189,77.24325
+135,Pusta No 2 Sonia Vihar,28.721517,77.243867
+135,Pusta No 3 Sonia Vihar,28.725583,77.2448
+135,Gatta Factory Sonia Vihar,28.730183,77.24575
+135,Sonia Vihar,28.7324,77.246233
+135,Pusta No 5 Sonia Vihar,28.734583,77.246633
+135,Check Post,28.739367,77.24745
+135,Annpurna Mandir,28.74245,77.246567
+135,Sabhapur More,28.750167,77.24385
+135,Chauhan Patti (Terminal),28.754767,77.24325
+135,NHAI Building/ Dwarka Sec-10 Metro Station,28.578409,77.058932
+135,Dwarka Sec-19 Modern School,28.578591,77.054908
+135,Amrohi More,28.574383,77.05115
+135,St Marry School,28.573412,77.048418
+135,Police Post,28.577292,77.035195
+135,Qutub Vihar Phase-I Kikar Stand,28.578247,77.02915
+135,Jhankar Crossing,28.57905,77.024348
+135,Goyla Dairy,28.579766,77.021478
+135,Nehru Bus Stand Goyla Dairy,28.580346,77.019327
+135,St Thomas School Goyla Vihar,28.581816,77.015072
+135,Taj Pur More,28.58327,77.011534
+135,Goyla Village,28.587476,77.008636
+135,Shyam Vihar,28.591403,77.000404
+135,Goela Dairy Crossing,28.591721,76.992877
+135,Deenpur Village,28.593389,76.991941
+135,Durga Vihar,28.596621,76.990298
+135,BDO Office,28.600768,76.988661
+135,Chhawla Stand Najafgarh,28.60799,76.985536
+135,Police Station Najafgarh,28.61031861,76.98133766
+135,Dichau Chowk,28.617676,76.984284
+135,Udaseen Ashram,28.621747,76.98804
+135,Nirmal Vihar,28.625259,76.992196
+135,Dichau Kalan Depot,28.629304,76.997733
+135,Azadpur Terminal,28.707525,77.177797
+135,New Sabzi Mandi,28.7139,77.1725
+135,Adarsh Nagar / Bharola Village,28.715917,77.170867
+135,Sarai Peepal Thala,28.720417,77.166983
+135,Mahindra Park,28.72153333,77.166
+135,Jahangir Puri GT Road,28.7251,77.163217
+135,Jahangir Puri Metro Station,28.7273,77.161583
+135,GTK Depot,28.731183,77.158617
+135,Mukarba Chowk,28.734723,77.155831
+135,Sanjay Gandhi Transport Nagar,28.738331,77.154234
+135,Libas Pur GT Road,28.752467,77.149383
+135,Swaroop Nagar GT Road,28.75805,77.14765
+135,Gurudwara Siraspur GT Road,28.76486,77.145315
+135,Nangli Poona More,28.771708,77.142899
+135,Khera Garhi,28.771944,77.121967
+135,Khera Kalan School,28.771903,77.117675
+135,Khera Kalan Gaon,28.772345,77.115104
+135,Rishi Dharmarth Chikitsalaya,28.773931,77.104022
+135,Khera Khurd Village,28.773923,77.102521
+135,Khera Khurd Nahar Crossing,28.773761,77.09241
+135,Naya Bans,28.783337,77.096637
+135,Mann School,28.793447,77.095545
+135,Holambi Khurd DRID College,28.795391,77.097784
+135,Holambi Khurd,28.799721,77.096011
+135,Holambi Kalan Terminal,28.801883,77.096003
+135,Holambi Kalan Crossing,28.809564,77.107095
+135,Shahpur Garhi,28.817688,77.102397
+135,Narela ITI / Narela Depot,28.820295,77.101135
+137,Nangli Dairy,28.61970089,77.01766538
+137,Chhathh Ghat Park,28.618803,77.015219
+137,Arjun Park,28.618083,77.013083
+137,Nangli Sakrawati Crossing,28.61625756,77.00801176
+137,Nangli Sakrawati,28.61463009,77.00390399
+137,Sai Baba Mandir,28.613536,76.999497
+137,Power House NajafGarh,28.612929,76.995552
+137,Tuda Mandi,28.6125091,76.99236002
+137,Nizamuddin Railway Station,28.586388,77.253259
+137,Rajdoot Hotel,28.5825,77.2527
+137,Ashram (Hari Nagar),28.57449,77.256841
+137,Sri Niwaspuri / PG DAV College Lajpat Nagar,28.56675,77.253117
+137,ESI Hospital Okhla,28.51529,77.281062
+137,Central Work Shop II,28.5164,77.2835
+137,Okhla Depot IV CWS II,28.51835,77.284767
+137,ISBT Kashmere Gate Terminal,28.66696,77.227456
+137,Tees Hazari Court,28.666662,77.21926
+137,St Stephen Hospital,28.6671,77.2149
+137,Ice Factory (Rani Jhansi Road),28.666336,77.208872
+137,Roshnara Road,28.669035,77.204663
+137,Roshnara Bagh,28.6717,77.2007
+137,Clock Tower,28.6774,77.201633
+137,Shakti Nagar,28.6804,77.1993
+137,Shakti Nagar Nangia Park,28.679846,77.195746
+137,Chowki No 2 / Gulabi Bagh Crossing,28.677233,77.188967
+137,Gulabi Bagh,28.674998,77.188525
+137,Shastri Nagar A Block,28.672401,77.186038
+137,Subhadra Colony,28.671105,77.184219
+137,Shastri Nagar Metro Station,28.669997,77.181336
+137,Shastri Nagar E Block,28.6711,77.17605
+137,Shastri Nagar Shiv Mandir,28.6716,77.173
+137,Inderlok Metro Station,28.673633,77.168983
+137,Kanhaiya Nagar,28.680933,77.165433
+137,B3 Keshav Puram,28.6861,77.1629
+137,B-4 Keshav Puram,28.687583,77.162267
+137,Mangol Pur School (Kanjhawla Road),28.694632,77.105225
+137,Avantika Xing,28.698239,77.097085
+137,Rohini Sec 20/21 More,28.7155,77.0743
+137,Satyapuram Jharoda,28.665305,76.943439
+137,Jharoda Nala Crossing,28.6586,76.9479
+137,Jharoda Kalan,28.655083,76.950083
+137,Jharoda Village,28.65085,76.9531
+137,S.S. Kanya Vidhyalaya,28.646688,76.956119
+137,PTS Jharoda,28.642863,76.958365
+137,CRPF Jharoda,28.638805,76.960707
+137,Sainik Enclave Jharoda,28.633583,76.963783
+137,Saraswati Kunj Jharoda,28.63045,76.965683
+137,Naveen Palace,28.627867,76.967333
+137,Baba Haridass Nagar,28.623817,76.970483
+137,New Anaj Mandi,28.619058,76.974408
+137,Surakh Pur Crossing,28.6155,76.976417
+137,Uttam Nagar,28.626011,77.068195
+137,A-3 Janak Puri,28.619633,77.079183
+137,C-2 Janakpuri,28.6219,77.0842
+140,Shahbad Dairy,28.746757,77.095936
+140,Shahbad Dairy A Block,28.746012,77.098479
+140,St. Xavier School Shahbad,28.74574,77.102555
+140,Shahbad Daulatpur School,28.745771,77.107677
+140,Shahbad Daulatpur Gaon,28.745421,77.111298
+140,Delhi Engg College Shahbad,28.745372,77.116411
+140,Rohini Sec-16 Xing,28.744197,77.120768
+140,Shri Krishna Apartments,28.744021,77.126259
+140,Rohini DTC Depot 4,28.74498,77.130204
+140,Rohini Sec 18 B-7 Road,28.743222,77.132039
+140,Rohini Sec 18 Pocket A,28.7408561,77.13307468
+140,Rohini Sec 18,28.738982,77.135857
+140,Rohini Sec 18 B Block,28.735936,77.137677
+140,Badli Village,28.731914,77.140479
+140,Jail Road Rohini Sec 18,28.727526,77.143333
+140,Badli Crossing,28.728649,77.146021
+140,Haiderpur Metro Station,28.73107474,77.14969427
+140,Exchange Store (Hill Road),28.67772,77.22303
+140,PNB STA Road,28.678372,77.220876
+140,Rajpur Road Transport Deptt,28.67895,77.21861
+140,MCD Store (Rajpur Road),28.67319,77.216938
+140,Aruna Asaf Ali Hospital,28.66961,77.21753
+140,Novelty Cinema,28.6614,77.2211
+140,Gagan Vihar,28.6451,77.2977
+140,KarKarDooma Court,28.654383,77.299067
+140,Suraj Mal Vihar,28.661283,77.303517
+140,Satyam Enclave / Jhilmil DDA Flats,28.666733,77.30465
+140,PS Vivek Vihar,28.666733,77.307017
+140,ESI Hospital,28.666467,77.309633
+140,Vivekanand Mahila College,28.665467,77.314517
+140,Vivek Vihar Terminal,28.667933,77.3145
+140,Vivek Vihar ITI,28.6707,77.315833
+140,Surya Nagar,28.667917,77.321283
+140,Purani Basti Rewla Khanpur,28.569594,76.977464
+140,Rewla Tajpur Crossing,28.572594,76.980927
+140,Jhatikara Crossing,28.58579,76.995161
+140,Mata Daan Kaur School,28.59760831,76.89920516
+140,Mundhela Kalan Crossing,28.5976709,76.89502883
+140,Surakh Pur Crossing,28.6155,76.976317
+140,New Anaj Mandi,28.61935,76.97385
+140,Baba Haridass Nagar,28.623619,76.970388
+140,Bangali Colony,28.6299,76.965867
+140,PTS Jharoda,28.6429,76.958117
+140,S.S. Kanya Vidhyalaya,28.646717,76.955883
+140,Jharoda Village,28.650904,76.952779
+140,Jharoda Kalan,28.655633,76.949583
+140,Satyapuram Jharoda,28.666183,76.942533
+140,Rohini Sec 20/21/22 Crossing,28.7203,77.069
+140,Rohini Sec 23 Pkt 1 (Green Hill Aptt.),28.719083,77.084283
+140,Rohini Sec 24 Dear Satguru Sewaram Crossing,28.72832035,77.09231807
+140,Dera Satguru Sewaram Sahai Sec 24/25,28.7297,77.094967
+140,Rithala Village,28.725886,77.100438
+140,Pal Colony,28.7236,77.1037
+140,Rithala Metro Station,28.7198,77.1087
+140,Rohini Depot 1 Sec 6,28.71645,77.113467
+140,Rohini West Metro Station,28.7154,77.1147
+140,Rohini Sec-9 /7,28.7138,77.1172
+140,Rohini Sec-9,28.711805,77.120144
+140,Rohini Sec 7 and 8 Crossing,28.708306,77.125246
+140,Fire Station Sec-8,28.707061,77.127011
+140,Madhuvan Chowk,28.705196,77.129655
+140,Madhuban Chowk (Outer Ring Road),28.7054,77.132
+140,Pitampura RU-Block,28.7078,77.1364
+140,Pitampura CD Block (Aggrasen model School),28.705913,77.138568
+140,Pittampura AP-Block,28.703376,77.139486
+140,Pitam Pura KD Block,28.700344,77.141026
+140,DAV School,28.699811,77.145005
+140,TV Tower (Power House),28.700093,77.151621
+140,Guru Govind Singh College,28.698123,77.151681
+140,Netaji Subhash Palace (Wazirpur Depot) Road No 41,28.694143,77.151048
+140,Wazirpur Depot,28.691925,77.153796
+142,Anand Vihar ISBT Main Road,28.647061,77.317903
+142,Mitraon Village (Dhansa Road),28.60826858,76.94478226
+142,Mitraon School,28.607199,76.939964
+142,Surehra Crossing,28.60425122,76.93243765
+142,Rawta Crossing (Dhansa Road),28.60016758,76.91613236
+142,Jaffarpur Kalan RTRM Hospital,28.5948401,76.91534756
+142,Tikri Border Metro Station,28.68806917,76.96543973
+142,Tikari Village,28.6875,76.9708
+142,Tikri Hospital,28.6869,76.9783
+142,Tikri Piyau / Azad Hind Gram,28.686817,76.979933
+142,Indian Oil Corporation,28.686267,76.986533
+142,Ghevra Crossing (Kanjhawala Road),28.686112,76.994467
+142,FCI Ghevra,28.69285,76.993943
+142,Ghevra Village,28.696524,76.997956
+142,Sir Chhotu Ram Polytechnic,28.707239,77.001132
+142,Haryana Shakti School Kanjhawla,28.71416643,77.00318814
+142,Desu Sub Station,28.723483,77.004474
+142,Kanjhawala Village,28.733592,77.004502
+142,Kanjhawla Chowk,28.738005,77.007551
+142,Kanjhawla School,28.738824,77.008263
+142,Chandpur Kalan Crossing,28.751435,77.014409
+142,Chand Pur Village,28.75329,77.00775
+142,Chand Pur Majra School,28.75895,76.99894
+142,Majra Dabas Village,28.76899,76.99852
+142,Prem Piyau,28.76665064,77.01640913
+142,Shri Krishna Gaushala,28.779779,77.021947
+142,Bajit Pur Crossing,28.78502619,77.02386743
+142,Ishwar Colony,28.794529,77.029967
+142,Panchayat Ghar,28.797939,77.031709
+142,Primary School,28.797795,77.034329
+142,Bawana Village Chowk,28.800379,77.036058
+142,Badli Railway Staion,28.74539,77.13727
+142,Samaypur School,28.744211,77.143076
+142,Prem Nagar,28.743133,77.146286
+142,Ice Factory (Nityanand Marg),28.6676101,77.210806
+142,ISBT Kashmere Gate (Lothian Road),28.665616,77.230079
+142,Guru Govind Singh University (Kashmere Gate),28.665651,77.230073
+142,GPO,28.661819,77.235256
+142,Old Delhi Railway Station,28.660304,77.225322
+143,Anand Vihar ISBT Terminal,28.646328,77.314904
+143,Ram Prastha Crossing,28.660523,77.319926
+143,Ram Prastha Temple,28.663552,77.320362
+143,Surya Nagar (Gazipur Road),28.666954,77.321483
+143,Shahdara Border GT Road,28.676241,77.321331
+143,Jhilmil Xing,28.676186,77.317518
+143,Dilshad Garden GT Road,28.675883,77.3118
+143,Telephone Exchange,28.675817,77.309217
+143,Mansarovar Park Metro Station,28.675479,77.300119
+143,Welcome Colony Metro Station,28.672,77.275
+143,Welcome Colony,28.67179881,77.27337996
+143,Seelampur Metro Station,28.670722,77.266485
+143,Dharam Pura,28.670717,77.261917
+143,Shastri Park,28.6723,77.2571
+143,Shastri Park,28.673195,77.251804
+143,Shyam Giri Mandir,28.67382,77.248024
+143,Shastri Park DMRC Depot,28.674167,77.243433
+143,Shastri Park Metro Depot,28.673433,77.241183
+143,ISBT Bridge,28.6692301,77.228774
+143,Azad Market,28.6627,77.2075
+143,Bara Hindu Rao,28.660752,77.204049
+143,Model Basti,28.657229,77.203685
+143,Guru Govind Singh Marg,28.655331,77.198831
+143,Tibiya College,28.65754,77.194648
+143,Ram Jas Road,28.659086,77.191154
+143,Liberty Cinema,28.659825,77.188866
+143,Sarai Rohilla Govt Qtrs (Rohtak Road),28.661182,77.185019
+143,Sarai Rohila (Rohtak Road),28.662538,77.182083
+143,Anand Parvat Industrial Area,28.665198,77.174292
+143,Daya Basti Flyover,28.66635,77.170027
+143,Zakhira Flyover,28.668391,77.165402
+143,Ashok Park,28.671287,77.156585
+143,Ram Pura,28.671724,77.153627
+143,Punjabi Bagh Power House,28.672734,77.146807
+143,Punjabi Bagh Terminal (Rohtak Road),28.673121,77.143689
+143,C 4 Yamuna Vihar,28.702199,77.278463
+143,Yamuna Vihar Brijpuri,28.702588,77.273744
+143,B-Block Yamuna Vihar,28.702752,77.271309
+143,Bhajanpura,28.703351,77.263706
+143,Khajuri,28.7039,77.2562
+143,Garhi Maidu,28.6992,77.255533
+143,Gamri Extn Pusta No.5,28.695121,77.254951
+143,Kartar Nagar,28.68945,77.254167
+143,Jagjit Nagar,28.686317,77.254567
+143,New Usman Pur Pusta No-1,28.679983,77.256183
+143,Zero Pusta,28.6778,77.256783
+143,Shastri Park Pusta Road,28.674017,77.2563
+143,Ludlow Castle,28.672284,77.225834
+143,Exchange Store / Civil Lines Metro Station,28.676749,77.224848
+143,IP College,28.67961,77.22396
+143,Old Secretariat (Postal Account Office),28.683783,77.222172
+144,Delhi Jal Board,28.772435,77.149988
+144,Choona Factory,28.77225,77.154571
+144,Kadipur Colony,28.772347,77.158276
+144,Kadipur Village,28.773824,77.163188
+144,Kushak Village 1,28.774887,77.165126
+144,Ibrahimpur Village,28.775282,77.177338
+144,Tatesar Gurukul,28.758855,76.967482
+144,Harewali Gaon,28.83091667,77.00736667
+144,Harewali Crossing,28.81855,77.003033
+144,Dariyapur Gaon,28.812783,77.00915
+144,Krishna Colony,28.746817,77.087767
+144,Deep Vihar,28.737876,77.083138
+144,Prehlad Vihar (Deep Vihar) Rohini Sec 25,28.735182,77.086984
+144,Power House Rohini Sec 24,28.726983,77.080267
+144,Rohini Sec 20/21/22 Crossing,28.720656,77.069805
+144,Peera Garhi Chowk,28.678182,77.094671
+144,Peera Garhi Depot,28.675005,77.093956
+144,Sundar Apartments,28.665539,77.09239
+144,Sunder Vihar,28.66375,77.092192
+144,Meera Bagh,28.658924,77.091303
+144,Meera Bagh Apartment,28.6572,77.0908
+144,Keshopur Depot,28.652607,77.087634
+144,Major Bhupinder Singh Nagar,28.647115,77.084796
+144,CRPF Camp,28.645917,77.084483
+144,Manohar Nagar,28.642478,77.083209
+144,Krishna Park,28.639163,77.081872
+144,Kangra Niketan,28.635278,77.080741
+144,District Centre Outer Ring Road,28.632805,77.08128
+144,Lodhi Colony,28.585933,77.221367
+144,INA Market,28.579256,77.208993
+144,Sarojini Nagar Market,28.577917,77.198967
+144,Balco Apartment,28.62985,77.306917
+144,Vijaya Laxmi Apartment,28.6289,77.309017
+144,Parivar Apartment,28.626417,77.3091
+144,Ras Vihar Apartment (PS Madhu Vihar),28.6253,77.3057
+144,Saraswati Kunj,28.623867,77.301483
+144,Press Apartment,28.62285,77.2983
+144,Swatantra Bharat Mills,28.663528,77.155197
+144,Shastri Nagar Shiv Mandir,28.6717,77.1732
+144,Kirodi Mal College,28.683817,77.208065
+144,Malka Ganj Terminal,28.677207,77.207926
+146,Hiranki Village,28.798935,77.179474
+146,Amir Khusro Park / Oberoi Hotel,28.5965,77.2407
+146,Shahdara Terminal,28.674295,77.287206
+146,Kouria Bridge,28.6603,77.2337
+146,Rewla Khanpur Village,28.567358,76.982136
+146,Shalimar Bagh Crossing,28.703355,77.169098
+146,Prem Bari Pull,28.700077,77.158486
+146,Punjabi Bagh Terminal,28.6758,77.1411
+146,Nangloi Post Office,28.679763,77.066169
+146,Qamruddin Nagar,28.675011,77.061622
+146,Aman Puri,28.672979,77.059922
+146,Narain DharamKanta,28.670618,77.057884
+146,ShivRam Park,28.667651,77.055346
+146,Nilothi Crossing,28.664852,77.053333
+146,Rishal Garden,28.661623,77.048814
+146,Ranhola Extension,28.659496,77.045543
+146,Ranhola Village,28.655779,77.040633
+146,Ranhola II,28.654476,77.038017
+146,PS Ranhola,28.653399,77.03552
+146,BrahmPuri Colony,28.652115,77.032597
+146,Brahmpuri Colony,28.651158,77.030203
+146,TilangPur Kotla,28.64946,77.02727
+146,Kotla Vihar Phase II,28.648236,77.025586
+146,Chanchal Park,28.646242,77.021841
+146,BakkarWala Crossing,28.643213,77.01611
+146,Baprola Vidhyalaya,28.641771,77.013803
+146,Baprola Village,28.640823,77.011757
+146,Baprola School,28.638365,77.007943
+146,AirForce Station (BaniCamp),28.633911,77.003107
+146,Jai Vihar,28.631506,77.000569
+146,Dichau Kalan Depot,28.628745,76.997357
+146,Nirmal Vihar,28.625313,76.992612
+146,Udaseen Ashram,28.621661,76.98823
+146,Dichau Chowk,28.617306,76.984157
+146,Dwarka Sec 22-23 / ClassicApartments,28.561387,77.056371
+146,Dwarka Sec 9 Metro Station,28.572705,77.065945
+146,Dwarka Sec 8 DTC Depot,28.57721,77.069827
+146,Dwarka Sec-1 Mahalaxmi Apartment,28.5961071,77.0719115
+146,SFS Flats Sec-2 Power House,28.5999,77.0714
+146,Mahaveer Enclave Part II and III,28.604051,77.071622
+146,Vijay Enclave (New Dwarka Road),28.60635,77.075033
+146,Dwarka Puri,28.6076,77.078083
+146,New Dwarka Road / Seetapuri,28.60955,77.08075
+146,Dabri Crossing Dwarka Road,28.61160343,77.08447193
+146,Patel Chowk (Ashoka Road),28.624548,77.210633
+146,Gurudwara Bangla Sahib,28.625333,77.209333
+146,NDPO,28.6235,77.2065
+146,Kapashera More (Najafgarh Road),28.530644,77.086237
+146,Kapashera Village Bijwasan Road,28.52759,77.076229
+146,Shri Golok Dham Bijwasan School,28.533565,77.059594
+146,Bijwasan Railway Station,28.53551,77.043612
+146,Tikri Border,28.687054,76.965189
+146,Tikri Kalan Village,28.682661,76.964965
+146,Fire Station Tikri Village,28.6701001,76.959633
+146,Baba Haridass Gitanjali Enclave,28.666442,76.954497
+146,Jharoda Nala Crossing,28.66218,76.953826
+146,Uttam Nagar Terminal,28.626045,77.068214
+146,Bakkargarh Village,28.665997,77.017004
+146,Bakkarwala Village Crossing,28.65925,77.01689
+146,Bakkarwala School,28.65393,77.01678
+146,Chanchal Park Part 1,28.64992,77.01678
+146,BakkarWala Crossing,28.643343,77.016248
+146,Baprola Village,28.640858,77.011808
+146,AirForce Station (BaniCamp),28.633299,77.002426
+146,Jai Vihar,28.631516,77.000557
+146,Tilangpur Kotla,28.649623,77.027181
+146,BakkarWala School Baprola,28.641791,77.0137
+146,Punjabi Bagh Terminal (Rohtak Road),28.673332,77.14404
+146,Power House,28.672926,77.147373
+146,Ram Pura,28.672048,77.153511
+146,Ram Pura (Ashok Park),28.671405,77.157274
+146,Zakhira Flyover,28.668627,77.165368
+146,Daya Basti Flyover,28.666508,77.170188
+146,Anand Parbat Industrial Area,28.664714,77.175426
+146,Sarai Rohilla Govt Qtrs (Rohtak Road),28.661228,77.185153
+146,Liberty Cinema,28.660021,77.188823
+146,Ram Jas Road,28.659335,77.19094
+146,Tibiya College,28.657536,77.194888
+146,Guru Govind Singh Marg,28.655493,77.199002
+146,Filmistan,28.659639,77.202922
+146,Bara Hindu Rao,28.66126594,77.20404119
+146,Azad Market,28.663272,77.207209
+146,Ice Factory (Rani Jhansi Road),28.667634,77.210788
+146,Kouria Bridge,28.6601,77.2344
+146,Faiz Road,28.6495,77.1981
+146,DB Gupta Market,28.651681,77.194671
+146,Thana DB Gupta Road,28.652552,77.19304
+146,Prahlad Market,28.653873,77.190673
+146,Khalsa College,28.655289,77.188123
+146,Kikar Wala Chowk,28.652183,77.18505
+146,Prasad Nagar,28.649253,77.183031
+146,Radha Swami Satsang,28.64465,77.181033
+146,F Block Kirti Nagar,28.651466,77.140817
+146,PS Kirti Nagar,28.648667,77.143167
+146,Fire Station Kirti Nagar,28.640867,77.13545
+146,Metal Forging,28.6298,77.1233
+146,DDA Flats Hari Nagar,28.6308,77.1193
+146,Swarg Ashram,28.6308,77.1149
+146,Beriwala Bagh,28.631183,77.112167
+146,DDU Hospital,28.6282,77.111
+146,Hari Nagar Shaheed Pawan Sahni Chowk,28.624804,77.110518
+146,Janak Puri B-1 Terminal,28.629783,77.091517
+146,Janakpuri B-2,28.6263,77.0921
+146,Janak Puri B-3,28.622917,77.09275
+146,C2B Janak Puri,28.6212976,77.0889992
+146,C6 B Janakpuri,28.613283,77.098533
+146,Kibri Place,28.6044,77.1273
+146,PS Chankya Puri,28.603826,77.196413
+146,Teen Murti,28.606157,77.198901
+146,South Enclave,28.610135,77.199151
+146,Tyag Raj Marg,28.608993,77.203197
+146,Sena Bhawan,28.608265,77.206612
+146,G Block,28.609639,77.209585
+146,Udyog Bhawan,28.612729,77.211891
+147,Palam Colony Flyover,28.58133,77.09573
+147,Dwarka Flyover Palam Village,28.583825,77.091504
+147,Dayal Singh College,28.592467,77.228717
+147,Bharti Nagar,28.5978,77.228467
+147,Sujan Singh Park,28.599217,77.2284
+147,Tagore Garden (Gurudwara Road),28.647358,77.11605
+147,Tagore Garden Gurudwara / Holy Child School,28.650417,77.113733
+147,Raghubir Nagar F Block,28.652281,77.1075701
+147,Seelampur Market Zafrabad Road,28.67352844,77.26997563
+147,Zafrabad,28.676117,77.271317
+147,Madarsa / Welcome Seelam Pur,28.6783,77.272583
+147,Zafrabad School,28.68426,77.275224
+147,Babarpur Ext / Maujpur Crossing,28.690727,77.278602
+147,Maujpur Metro Station,28.69202,77.27931
+147,Bharthal Chowk (Bharthal Road),28.554056,77.050407
+147,Bharthal Village (Shyam Mandir),28.543055,77.043846
+147,Malik Pur Village,28.55245,76.9029
+147,RK Puram Sec-1,28.564222,77.179815
+147,Sungar Pur,28.822067,77.185018
+147,Tiggi Pur Village,28.822018,77.188471
+147,Surehra Village,28.59870792,76.93644464
+147,Sultanpuri Terminal,28.70313785,77.0752384
+147,Sultan Puri AB Block,28.6935,77.073
+147,Dwarka Sec-21 Metro Station (Road Crossing),28.553836,77.057864
+147,Transport Department Dwarka,28.5569135,77.0531134
+147,CRPF Camp Keshopur,28.646361,77.084243
+147,Welcome Colony,28.672683,77.279167
+147,ISBT Kashmere Gate,28.665274,77.230212
+147,Delhi Gate (JLN Marg),28.64003333,77.23803333
+147,Chirag Dilli,28.542,77.2308
+147,Dhansa Border (T),28.56246,76.843123
+147,Dhansa School,28.557785,76.862694
+147,Dhansa Village,28.557811,76.867335
+147,AIR Force Camp,28.563288,76.871749
+147,Zakhira (Rohtak Road),28.669369,77.163949
+147,Bhairon Enclave,28.67225,77.0936
+147,Shahdara Railway Bridge,28.6749,77.2898
+147,B-4 Pocket 6 Narela,28.833283,77.10825
+147,B-4 Police Colony Narela,28.837384,77.110644
+147,Bhalaswa Village Crossing,28.73698,77.16704
+147,C-D Block Jahangir Puri,28.732218,77.170887
+147,Jahangirpuri B Block,28.7293,77.1662
+147,Jahangirpuri A-Block,28.7285,77.1648
+147,Karala Village,28.7314,77.0328
+147,Kalyanpuri Crossing (Ghazipur Road),28.6146,77.3213
+147,Gazi Pur Dairy Farm,28.620867,77.32055
+147,Gazi Pur DDA Flats,28.6229,77.319767
+147,Sannoth Crossing / Ghoga Crossing,28.819892,77.063398
+147,Ghoga Village,28.83062,77.04927
+147,ESI Hospital,28.726417,77.126433
+147,Rohini Depot-II,28.729867,77.121483
+147,Rohini Sec-11 (Aggarwal Sabha),28.733817,77.115767
+147,Rohini Sec 17A,28.738683,77.117333
+147,Sec-24 Rohini Main Road,28.7271,77.0986
+147,Prembari Pul,28.697411,77.15723
+147,Guru Govind Singh Crossing (Faiz Road),28.653054,77.202311
+147,West Enclave / Sansad Vihar (T),28.691467,77.10095
+147,Fire Station Rohini Sec 8,28.706807,77.126917
+147,Rohini Sec 35,28.757266,77.066803
+147,Rajeev Ratan Aawas Bawana,28.784571,77.063246
+147,Pragati Power Station Bawana,28.794494,77.073595
+147,Holambi Crossing,28.800643,77.084064
+147,Nangloi JJ Colony Lokesh Cinema,28.68226257,77.05939515
+147,ISBT Anand Vihar,28.6458894,77.3172575
+147,E Block Jahangir Puri Terminal,28.73308333,77.17265
+147,Kapil Vihar,28.699534,77.134953
+147,DTC Apartments,28.697529,77.134098
+147,Harsh Vihar,28.694734,77.134755
+147,Lok Vihar,28.692699,77.135213
+147,Chander Lok,28.689203,77.135521
+147,Road No-44 Crossing,28.686426,77.136168
+147,Mahindra Park Road No-44,28.684076,77.136129
+147,Maya Puri Crossing Ring Road,28.638517,77.129833
+147,Maya Enclave BSES Office,28.620483,77.110683
+147,Anand Parvat Terminal,28.657883,77.183367
+147,Jai Mata Market Tri Nagar Terminal,28.681367,77.155417
+147,A-1 Keshav Puram,28.683217,77.15435
+147,C-2 Keshav Puram,28.6868,77.153933
+147,C-4 Keshav Puram,28.6904,77.154983
+147,C-8 Keshav Puram,28.689217,77.159333
+147,Mangol Pur School (Outer Ring Road),28.69465,77.10618
+147,Rajapuri,28.603835,77.055125
+147,Tiggi Pur Village,28.821909,77.188343
+147,Sungar Pur,28.82197,77.185064
+147,Ghumman Heera Village,28.5326,76.9194
+147,Shanti Nagar / Tri Nagar,28.678733,77.166367
+147,Wazirpur DTC Depot / Netaji Subhash Palace,28.693815,77.151074
+148,Tikri Khurd,28.835983,77.123838
+148,Tikri Khurd Crossing / AMPC,28.836177,77.12839
+148,Tikri Khurd Crossing / AMPC,28.835604,77.128935
+148,Khampur Village,28.824476,77.132311
+148,Bakauli Village (GT Road),28.810288,77.137092
+148,Pwd Office,28.8012,77.138967
+148,Alipur Village GT Road,28.796617,77.1396
+148,Jind Pur Crossing,28.793233,77.14415
+148,Sai Mandir,28.78865,77.141467
+148,Budhpur GT Road,28.782107,77.141601
+148,Jain Mandir,28.77715,77.142633
+148,Nangli Poona (GT Road),28.774167,77.143267
+148,Gurudwara Siraspur GT Road,28.764956,77.146126
+148,Kapashera Border,28.522481,77.082442
+148,Kapashera Village,28.524517,77.0837
+148,Kapashera Crossing,28.531234,77.088154
+148,Samalkha Village,28.534492,77.090371
+148,Samalkha Crossing,28.538205,77.091434
+148,Puspanjali G Block,28.5415,77.07682
+148,Dwarka Road,28.544217,77.065083
+148,Bharthal Under Pass,28.547567,77.057117
+148,Dwarka Sec-21 Metro Station,28.5519186,77.0566312
+148,Dwarka Sec-21 Crossing,28.55411,77.05858
+148,Dwarka Sec 22 Vivanta Hotel,28.558065,77.061889
+148,Dwarka Sec-20/21 Crossing,28.56415,77.06297
+148,Dwarka Sec-8 Metro Station,28.56622,77.06691
+148,Shahbad Mohammad Pur School,28.56294,77.07074
+148,Shahbad Mohammad Pur Village,28.559648,77.071398
+148,Shahbad Mohammad Pur School,28.56278,77.07072
+148,Dwarka Sec-8 Metro Station,28.5675435,77.0666171
+148,Dwarka Sec-8,28.56852,77.06788
+148,Bagdola Village,28.57252,77.06916
+148,Dwarka Sec-8 DTC Depot,28.5758,77.07134
+148,National Malariya Research Centre (Dwarka),28.5765,77.07594
+148,Dada Dev Mandir,28.57818,77.07708
+148,National Malariya Research Centre (Dwarka),28.57876,77.07616
+148,Royal Residency (Dwarka),28.5815,77.0703
+148,Munirka Flats (Dwarka),28.58367,77.06701
+148,Dwarka Sec 1,28.594499,77.073519
+148,Sulabh International Centre,28.59687,77.080944
+148,Mahaveer Enclave III,28.60084,77.08199
+148,Dashrath Puri,28.60353,77.08266
+148,Vijay Enclave (Palam-Dabri Road),28.60654,77.08111
+148,Dabri Village,28.608043,77.081954
+148,Dabri Crossing Dwarka Road,28.61283325,77.08609111
+148,C2D Janakpuri,28.61446,77.086985
+148,C4E Janakpuri,28.616659,77.087976
+148,C2B Janak Puri,28.621222,77.088818
+148,Bharti College,28.62235,77.09365
+148,Virender Nagar / Dilli Haat,28.6232,77.09615
+148,Hari Nagar Depot,28.62541,77.10109
+148,G Block Hari Nagar,28.627917,77.100067
+148,Fateh Nagar,28.631133,77.098567
+148,Tilak Nagar Jail Road,28.635737,77.096692
+148,Tilak Nagar Crossing (Najafgarh Road),28.635322,77.092959
+148,Janak Puri Check Post,28.63385875,77.08882985
+148,B2A Janakpuri,28.632306,77.084585
+148,Janak Puri District Centre,28.630488,77.080047
+148,Dholi Piao,28.629119,77.076482
+148,Vikaspuri Crossing,28.626449,77.06969
+148,Uttam Nagar East Metro Station,28.624597,77.06498
+148,Mangla Puri Terminal,28.58998333,77.08701667
+148,Health Centre,28.591,77.0814
+148,Dwarka Crossing / Maharaja Agrasen Hospital,28.592833,77.079486
+148,Dwarka Sec 1,28.594283,77.073867
+148,J M International School,28.595421,77.070134
+148,Dwarka Sec 2-6,28.597335,77.064944
+148,Madhu Vihar,28.599779,77.061168
+148,Rajapuri,28.6038,77.0551
+148,Matiyala Xing,28.605032,77.051737
+148,DPS Matiyala,28.604518,77.046323
+148,Dwarka Sec 3-4,28.602648,77.043175
+148,Dwarka Sec 13-3 Xing,28.602551,77.040932
+148,MRV School Sec 13 Dwarka,28.603988,77.038876
+148,Dwarka Sec 13,28.605684,77.036274
+148,NSIT (Netaji Subhas Institute) / Sulahkul Mandir,28.607416,77.035099
+148,Suraj Vihar,28.610723,77.034031
+148,Kakrola More,28.61892598,77.02958463
+148,Kakrola Bridge,28.619809,77.024876
+148,Nangli Dairy,28.61970089,77.01766538
+148,Chhathh Ghat Park,28.618803,77.015219
+148,Arjun Park,28.618083,77.013083
+148,Nangli Sakrawati Crossing,28.61625756,77.00801176
+148,Nangli Sakrawati,28.61463009,77.00390399
+148,Sai Baba Mandir,28.613536,76.999497
+148,Power House NajafGarh,28.612929,76.995552
+148,Tuda Mandi,28.6125091,76.99236002
+148,Nizamuddin Railway Station,28.586388,77.253259
+149,Azad Market,28.663272,77.207209
+149,Ice Factory (Rani Jhansi Road),28.667634,77.210788
+149,Kouria Bridge,28.6601,77.2344
+149,Faiz Road,28.6495,77.1981
+149,DB Gupta Market,28.651681,77.194671
+149,Thana DB Gupta Road,28.652552,77.19304
+149,Prahlad Market,28.653873,77.190673
+149,Khalsa College,28.655289,77.188123
+149,Kikar Wala Chowk,28.652183,77.18505
+149,Prasad Nagar,28.649253,77.183031
+149,Radha Swami Satsang,28.64465,77.181033
+149,F Block Kirti Nagar,28.651466,77.140817
+149,PS Kirti Nagar,28.648667,77.143167
+149,Fire Station Kirti Nagar,28.640867,77.13545
+149,Metal Forging,28.6298,77.1233
+149,DDA Flats Hari Nagar,28.6308,77.1193
+149,Swarg Ashram,28.6308,77.1149
+149,Beriwala Bagh,28.631183,77.112167
+149,DDU Hospital,28.6282,77.111
+149,Hari Nagar Shaheed Pawan Sahni Chowk,28.624804,77.110518
+149,Janak Puri B-1 Terminal,28.629783,77.091517
+149,Janakpuri B-2,28.6263,77.0921
+149,Janak Puri B-3,28.622917,77.09275
+149,C2B Janak Puri,28.6212976,77.0889992
+149,C6 B Janakpuri,28.613283,77.098533
+149,Kibri Place,28.6044,77.1273
+149,PS Chankya Puri,28.603826,77.196413
+149,Teen Murti,28.606157,77.198901
+149,South Enclave,28.610135,77.199151
+149,Tyag Raj Marg,28.608993,77.203197
+149,Sena Bhawan,28.608265,77.206612
+149,G Block,28.609639,77.209585
+149,Udyog Bhawan,28.612729,77.211891
+149,Rail Bhawan Metro Station / Krishi Bhawan,28.615002,77.212136
+149,Mukhmel Pur Village,28.792499,77.15933
+149,Zind Pur Village,28.792969,77.152006
+149,Holambi Kalan Crossing,28.809371,77.106979
+149,Holambi Kalan Fatak,28.80929,77.098885
+149,Holambi Kalan JJ Colony,28.809645,77.087375
+149,Sannoth Village,28.81548,77.07094
+149,Jheel Terminal,28.658667,77.272233
+149,Geeta Colony,28.655133,77.2736
+149,Ramleela Ground Geeta Colony,28.654567,77.274817
+149,Pandit Park Geeta Colony,28.654966,77.276723
+149,Shivpuri Colony,28.651867,77.2781
+149,Rashid Market,28.649633,77.278883
+149,Khureji Khas,28.64655,77.279117
+149,East Guru Angad Nagar,28.641215,77.28284
+149,Radhu Palace,28.636683,77.285593
+149,Modern School,28.627831,77.227939
+149,Barakhamba Metro Station,28.6294,77.2253
+149,Statesman House,28.6303,77.2239
+149,District Centre Outer Ring Road,28.6327,77.0811
+149,Kangra Niketan,28.635596,77.080427
+149,Krishna Park,28.639124,77.081562
+149,Manohar Nagar,28.64271,77.082897
+149,Meera Bagh,28.658887,77.090929
+149,Sunder Vihar,28.663428,77.091736
+149,Sunder Apartment,28.665403,77.092203
+149,Mangol Puri B Block (ORR),28.689145,77.096167
+149,West Enclave (ORR),28.693317,77.101458
+149,Power House Rohini Sec 24,28.727167,77.080283
+149,Hanuman Mandir Rohini Sec 24,28.722667,77.08745
+149,Prehlad Vihar (Deep Vihar) Rohini Sec 25,28.7348,77.0872
+149,Krishna Colony,28.743833,77.08545
+149,Prehladpur Crossing,28.749247,77.084662
+149,Prehladpur Village,28.751012,77.081081
+149,Prehladpur School,28.75257,77.075612
+149,Jain Colony,28.75375,77.0728
+149,Barwala School,28.759052,77.062701
+149,Barwala Village,28.760283,77.060436
+149,Sultan Pur Crossing / Poothkhurd,28.767917,77.049267
+149,Poothkhurd Village,28.772317,77.0489
+149,Maharishi Valmiki Hospital,28.775183,77.047367
+149,Dhakewala Bawana,28.786105,77.041019
+149,Aditi College Bawana,28.794621,77.036256
+149,Bawana School,28.796201,77.035577
+149,Dariyapur Gaon,28.812601,77.009095
+149,Harewali Crossing,28.818453,77.002857
+149,Harewali Gaon,28.831167,77.007417
+149,ARSD College / Dhaula Kuan,28.590667,77.1683
+149,Dhaula Kuan ARSD College,28.5911429,77.1685041
+149,Shanti Niketan / RK Puram Sec 9,28.57478249,77.16876999
+149,R K Puram Sec-3,28.558755,77.182223
+149,RK Puram Sec-3,28.55678,77.184877
+149,R K Puram Sec-2,28.561602,77.18824
+149,Mohammadpur Village,28.564869,77.188919
+149,Safdarjung Enclave,28.566235,77.191514
+149,Green Field School,28.566019,77.194119
+149,Kamal Cinema,28.565224,77.198868
+149,Raj Nagar,28.570024,77.201105
+149,Mayur Vihar Phase III Crossing,28.60234849,77.32566419
+149,Mayur Vihar Phase III (T) Paper Market,28.61809348,77.33575426
+149,Jaitpur Crossing,28.498696,77.301223
+149,E.S.I. Hospital,28.5159,77.2805
+149,Crown Plaza,28.52945,77.271033
+149,Tughlaq Crescent,28.5942,77.212
+149,PS Tughlaq Road,28.599883,77.2112
+149,Krishan Menon Marg,28.6069,77.2098
+149,Aakashwani Bhawan,28.620532,77.210575
+149,PS Parliament / Jantar Mantar,28.625816,77.214389
+149,NCERT,28.537943,77.192713
+149,Qutub Hotel,28.539133,77.189533
+149,Katwaria Sarai,28.540444,77.184993
+149,Sanskrit Vidyapeeth,28.542017,77.182467
+149,FAI,28.543617,77.179833
+149,School Of Physical Science,28.546433,77.17925
+149,Ber Sarai,28.549533,77.180433
+149,ISTM,28.552258,77.181166
+149,Munirka Family Planning,28.553757,77.178902
+149,Munirka DDA Flats,28.555401,77.176406
+149,Munirka Family Planning,28.556777,77.17417
+149,Vasant Vihar Depot,28.558295,77.172165
+149,Vasant Vihar,28.562822,77.167991
+149,Swami Malai Mandir,28.567738,77.165006
+149,Vasant Village / Shani Mandir,28.575647,77.158521
+149,Arjun Path / Subroto Park,28.574071,77.151786
+149,Arjun Path,28.574872,77.147443
+149,APS Colony,28.574431,77.142057
+149,Palam Vihar Crossing,28.532531,77.052948
+149,Jhul-Jhuli Check Post / Ghumanhera Crossing,28.535372,76.909686
+149,Badarpur Village,28.502051,77.300104
+149,Power House,28.507069,77.299987
+149,Onida Factory,28.513125,77.297491
+149,Ali Village,28.515264,77.296584
+149,Maruti Factory,28.521896,77.293692
+149,PT College Kotla,28.5699,77.2263
+149,Defence Colony,28.574267,77.228733
+149,Sewa Nagar Flyover,28.578783,77.2293
+149,J L Nehru Stadium,28.583833,77.2299
+149,Central School Lodhi Colony,28.5848,77.22815
+149,Lodhi Colony,28.5846,77.2246
+149,Madipur JJ Colony Terminal,28.671495,77.117885
+149,Daya Basti Flyover,28.6665,77.170033
+149,Sarai Rohilla,28.661275,77.185138
+149,Dev Nagar,28.656146,77.187825
+149,Dev Nagar / Khalsa College,28.655538,77.187903
+149,Prahlad Market,28.653928,77.190757
+149,Thana DB Gupta Road,28.652514,77.19331
+149,DB Gupta Market,28.65182,77.194689
+149,Faiz Road,28.649568,77.198267
+149,Delhi Sectt,28.6311,77.25207
+149,Tajpur Kalan Village,28.837612,77.171881
+154,ISBT Kashmere Gate Terminal,28.66696,77.227456
+154,Tees Hazari Court,28.666662,77.21926
+154,St Stephen Hospital,28.6671,77.2149
+154,Ice Factory (Rani Jhansi Road),28.666336,77.208872
+154,Roshnara Road,28.669035,77.204663
+154,Roshnara Bagh,28.6717,77.2007
+154,Clock Tower,28.6774,77.201633
+154,Shakti Nagar,28.6804,77.1993
+154,Shakti Nagar Nangia Park,28.679846,77.195746
+154,Chowki No 2 / Gulabi Bagh Crossing,28.677233,77.188967
+154,Gulabi Bagh,28.674998,77.188525
+154,Shastri Nagar A Block,28.672401,77.186038
+154,Subhadra Colony,28.671105,77.184219
+154,Shastri Nagar Metro Station,28.669997,77.181336
+154,Shastri Nagar E Block,28.6711,77.17605
+154,Shastri Nagar Shiv Mandir,28.6716,77.173
+154,Inderlok Metro Station,28.673633,77.168983
+154,Kanhaiya Nagar,28.680933,77.165433
+154,B3 Keshav Puram,28.6861,77.1629
+154,B-4 Keshav Puram,28.687583,77.162267
+154,Mangol Pur School (Kanjhawla Road),28.694632,77.105225
+154,Avantika Xing,28.698239,77.097085
+154,Rohini Sec 20/21 More,28.7155,77.0743
+154,Satyapuram Jharoda,28.665305,76.943439
+154,Jharoda Kalan,28.655083,76.950083
+154,Jharoda Village,28.65085,76.9531
+154,S.S. Kanya Vidhyalaya,28.646688,76.956119
+154,PTS Jharoda,28.642863,76.958365
+154,CRPF Jharoda,28.638805,76.960707
+154,Sainik Enclave Jharoda,28.633583,76.963783
+154,Saraswati Kunj Jharoda,28.63045,76.965683
+154,Naveen Palace,28.627867,76.967333
+154,Baba Haridass Nagar,28.623817,76.970483
+154,New Anaj Mandi,28.619058,76.974408
+154,Surakh Pur Crossing,28.6155,76.976417
+154,Uttam Nagar,28.626011,77.068195
+154,A-3 Janak Puri,28.619633,77.079183

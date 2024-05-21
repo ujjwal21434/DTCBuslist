@@ -18,16 +18,60 @@ import androidx.core.app.ActivityCompat
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 
+/**
+ * LocationActivity is responsible for requesting location permissions, initializing location
+ * components, and updating the user interface with the user's current coordinates.
+ */
 class LocationActivity : AppCompatActivity(), SensorEventListener, LocationListener {
 
-    private lateinit var fusedLocationProviderClient: FusedLocationProviderClient
-    private var currentLocation: Location? = null
-    private val requestcode = 1000
-    private lateinit var locationTextView: TextView
-    private lateinit var sensorManager: SensorManager
-    private var mySensor: Sensor? = null
-    private var locationManager: LocationManager? = null
+    // Region: Properties
 
+    /**
+     * The FusedLocationProviderClient is used to get the user's last known location and request
+     * location updates.
+     */
+    private lateinit var fusedLocationProviderClient: FusedLocationProviderClient
+
+    /**
+     * The current location of the user, updated through location updates.
+     */
+    private var currentLocation: Location? = null
+
+    /**
+     * The request code used when requesting location permissions.
+     */
+    private val requestcode = 1000
+
+    /**
+     * The TextView used to display the user's current coordinates and bus details.
+     */
+    private lateinit var locationTextView: TextView
+
+    /**
+     * The SensorManager is used to interact with the device's sensors.
+     */
+    private lateinit var sensorManager: SensorManager
+
+    /**
+     * The mySensor is used to get the device's orientation.
+     */
+    private var mySensor: Sensor? = null
+
+    /**
+     * The LocationManager is used to request location updates from the device.
+     */
+    private lateinit var locationManager: LocationManager? = null
+
+    // EndRegion: Properties
+
+    // Region: Lifecycle Methods
+
+    /**
+     * onCreate is called when the activity is first created. It initializes the user interface,
+     * gets the device's sensors, and checks for location permissions.
+     *
+     * @param savedInstanceState The saved instance state, if available.
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_third)
@@ -44,6 +88,16 @@ class LocationActivity : AppCompatActivity(), SensorEventListener, LocationListe
         }
     }
 
+    // EndRegion: Lifecycle Methods
+
+    // Region: Permission Methods
+
+    /**
+     * hasLocationPermission checks if the app has the necessary location permissions. If not, it
+     * requests the permissions and returns false.
+     *
+     * @return true if the app has location permissions, false otherwise.
+     */
     private fun hasLocationPermission(): Boolean {
         return if (ActivityCompat.checkSelfPermission(
                 this,
@@ -67,100 +121,13 @@ class LocationActivity : AppCompatActivity(), SensorEventListener, LocationListe
         }
     }
 
+    // EndRegion: Permission Methods
+
+    // Region: Location Methods
+
+    /**
+     * initializeLocationComponents initializes the FusedLocationProviderClient and requests the
+     * user's last known location.
+     */
     private fun initializeLocationComponents() {
-        fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this)
-
-        if (hasLocationPermission()) {
-            if (ActivityCompat.checkSelfPermission(
-                    this,
-                    Manifest.permission.ACCESS_FINE_LOCATION
-                ) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(
-                    this,
-                    Manifest.permission.ACCESS_COARSE_LOCATION
-                ) != PackageManager.PERMISSION_GRANTED
-            ) {
-                return
-            }
-            fusedLocationProviderClient.lastLocation.addOnSuccessListener { location: Location? ->
-                currentLocation = location
-                updateUI()
-                requestLocationUpdates()
-            }
-        }
-    }
-
-    private fun requestLocationUpdates() {
-        if (ActivityCompat.checkSelfPermission(
-                this,
-                Manifest.permission.ACCESS_FINE_LOCATION
-            ) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(
-                this,
-                Manifest.permission.ACCESS_COARSE_LOCATION
-            ) != PackageManager.PERMISSION_GRANTED
-        ) {
-            return
-        }
-        locationManager?.requestLocationUpdates(
-            LocationManager.GPS_PROVIDER,
-            1000,
-            0f,
-            this
-        )
-    }
-
-    override fun onSensorChanged(event: SensorEvent?) {
-        // Handle sensor events here
-    }
-
-    override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
-        // Handle accuracy changes here
-    }
-
-    override fun onLocationChanged(location: Location?) {
-        currentLocation = location
-        updateUI()
-    }
-
-    override fun onStatusChanged(provider: String?, status: Int, extras: Bundle?) {
-        // Handle provider status changes here
-    }
-
-    override fun onProviderEnabled(provider: String?) {
-        // Handle provider enabled events here
-    }
-
-    override fun onProviderDisabled(provider: String?) {
-        // Handle provider disabled events here
-    }
-
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        when (requestCode) {
-            requestcode -> {
-                if ((grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
-                    initializeLocationComponents()
-                } else {
-                    Log.d("MainActivity", "Location permission was not granted.")
-                }
-                return
-            }
-            else -> {
-                //Ignoring all other requests.
-            }
-        }
-    }
-
-    private fun updateUI() {
-        val latitude = currentLocation?.latitude
-        val longitude = currentLocation?.longitude
-        Log.d("MainActivity", "Latitude: $latitude, Longitude: $longitude")
-        locationTextView.text =
-            "My Current Coordinates\nLatitude: $latitude\nLongitude: $longitude\n\nBus Details\nRoute Number: \nVehicle Number:"
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        sensorManager.unregisterListener(this)
-        locationManager?.removeUpdates(this)
-    }
-}
+        fusedLocationProviderClient =

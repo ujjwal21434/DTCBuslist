@@ -1,6 +1,5 @@
 package com.example.dtcbuslist
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -8,7 +7,7 @@ import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 
 class FirstActivity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_first)
@@ -17,9 +16,15 @@ class FirstActivity : AppCompatActivity() {
         val button = findViewById<Button>(R.id.button)
 
         button.setOnClickListener {
-            val intent = Intent(this, SecondActivity::class.java)
-            intent.putExtra("route", editText.text.toString())
-            startActivity(intent)
+            val route = editText.text.toString().trim()
+            if (route.isNotEmpty()) {
+                val intent = Intent(this, SecondActivity::class.java)
+                intent.putExtra("route", route)
+                startActivity(intent)
+            } else {
+                // Show error message to user
+                editText.error = "Please enter a route number"
+            }
         }
     }
 }

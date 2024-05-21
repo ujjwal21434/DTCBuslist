@@ -1,15 +1,24 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+#!/bin/bash
+
+# List of files and directories to remove
+declare -a files_to_remove=(
+  ".iml"
+  ".gradle"
+  ".idea/caches"
+  ".idea/libraries"
+  ".idea/modules.xml"
+  ".idea/workspace.xml"
+  ".idea/navEditor.xml"
+  ".idea/assetWizardSettings.xml"
+  ".DS_Store"
+  "build"
+  "captures"
+  ".externalNativeBuild"
+  ".cxx"
+  "local.properties"
+)
+
+# Remove each file or directory
+for file in "${files_to_remove[@]}"; do
+  rm -rf -- "$file"
+done

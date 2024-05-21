@@ -21,17 +21,28 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
     private val mContext: Context = context
 
     override fun onCreate(db: SQLiteDatabase) {
-        val CREATE_TABLE = ("CREATE TABLE " + TABLE_NAME + "("
+        val createTableQuery = ("CREATE TABLE " + TABLE_NAME + "("
                 + COLUMN_ROUTE + " TEXT,"
                 + COLUMN_STOP_NAME + " TEXT,"
                 + COLUMN_LAT + " REAL,"
                 + COLUMN_LONG + " REAL" + ")")
-        db.execSQL(CREATE_TABLE)
 
+        db.execSQL(createTableQuery)
+
+        insertBusRoutesFromCsv(db)
+    }
+
+    override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
+        db.execSQL("DROP TABLE IF EXISTS $TABLE_NAME")
+        onCreate(db)
+    }
+
+    private fun insertBusRoutesFromCsv(db: SQLiteDatabase) {
         try {
             val inputStream = mContext.assets.open("busroutes.csv")
             val bufferedReader = BufferedReader(InputStreamReader(inputStream))
-            bufferedReader.readLine()
+            bufferedReader.readLine() // Skip header line
+
             var line: String? = bufferedReader.readLine()
             while (line != null) {
                 val split = line.split(",")
@@ -39,21 +50,19 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
                 val stopName = split[1]
                 val lat = split[2].toDouble()
                 val long = split[3].toDouble()
-                db.execSQL("INSERT INTO $TABLE_NAME VALUES ('$route', '$stopName', $lat, $long)")
+
+                val insertQuery = ("INSERT INTO $TABLE_NAME ($COLUMN_ROUTE, $COLUMN_STOP_NAME, $COLUMN_LAT, $COLUMN_LONG) " +
+                                  "VALUES ('$route', '$stopName', $lat, $long)")
+
+                db.execSQL(insertQuery)
                 line = bufferedReader.readLine()
             }
+
             bufferedReader.close()
         } catch (e: IOException) {
-
             Log.e("DatabaseHelper", "Error reading CSV file: ${e.message}")
         } catch (e: Exception) {
             Log.e("DatabaseHelper", "Error inserting data into database: ${e.message}")
         }
-    }
-
-
-    override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
-        db.execSQL("DROP TABLE IF EXISTS $TABLE_NAME")
-        onCreate(db)
     }
 }

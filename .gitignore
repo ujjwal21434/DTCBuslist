@@ -1,7 +1,10 @@
+# Specify the interpreter to use for this script (bash)
 #!/bin/bash
 
-# List of files and directories to remove
+# Create an array of files and directories to remove
 declare -a files_to_remove=(
+  # Individual entries for each file or directory
+  # (each entry should be a relative or absolute path)
   ".iml"
   ".gradle"
   ".idea/caches"
@@ -18,7 +21,9 @@ declare -a files_to_remove=(
   "local.properties"
 )
 
-# Remove each file or directory
+# Loop through the array of files and directories
 for file in "${files_to_remove[@]}"; do
+  # Remove each file or directory using the 'rm' command
+  # with the '-rf' flag to force removal and follow symbolic links
   rm -rf -- "$file"
 done

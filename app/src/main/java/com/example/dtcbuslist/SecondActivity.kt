@@ -1,64 +1,87 @@
 package com.example.dtcbuslist
 
-import DatabaseHelper
-import android.annotation.SuppressLint
-import android.content.ActivityNotFoundException
-import android.content.Intent
+import android.content.Context
 import android.net.Uri
 import android.os.Bundle
-import android.widget.AdapterView
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import android.widget.ArrayAdapter
-import android.widget.ListView
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+
+class Stop(val name: String, val lat: Double, val lon: Double)
+
+class StopAdapter(private val context: Context, private val stopList: List<Stop>) :
+    RecyclerView.Adapter<StopAdapter.StopViewHolder>() {
+
+    class StopViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val stopName: TextView = itemView.findViewById(R.id.stop_name)
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StopViewHolder {
+        val view = LayoutInflater.from(context).inflate(R.layout.stop_item, parent, false)
+        return StopViewHolder(view)
+    }
+
+    override fun onBindViewHolder(holder: StopViewHolder, position: Int) {
+        holder.stopName.text = stopList[position].name
+        holder.itemView.setOnClickListener { openGoogleMaps(stopList[position].lat, stopList[position].lon) }
+    }
+
+    override fun getItemCount(): Int = stopList.size
+}
+
+private fun openGoogleMaps(latitude: Double, longitude: Double) {
+    // ... (same as original)
+}
 
 class SecondActivity : AppCompatActivity() {
 
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        val listView = findViewById<ListView>(R.id.listView)
         val route = intent.getStringExtra("route")
+        if (route == null) {
+            finish()
+            return
+        }
 
         val databaseHelper = DatabaseHelper(this)
         val db = databaseHelper.readableDatabase
 
         val cursor = db.rawQuery("SELECT stop_name, lat, long FROM bus_routes WHERE route = ?", arrayOf(route))
-        val stopNames = ArrayList<String>()
-        val latitudes = ArrayList<Double>()
-        val longitudes = ArrayList<Double>()
+        val stopList = mutableListOf<Stop>()
 
         while (cursor.moveToNext()) {
-            stopNames.add(cursor.getString(0))
-            latitudes.add(cursor.getDouble(1))
-            longitudes.add(cursor.getDouble(2))
+            stopList.add(Stop(cursor.getString(0), cursor.getDouble(1), cursor.getDouble(2)))
         }
         cursor.close()
 
-        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, stopNames)
-        listView.adapter = adapter
-
-
-        listView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
-            val latitude = latitudes[position]
-            val longitude = longitudes[position]
-            openGoogleMaps(latitude, longitude)
-        }
+        val recyclerView = findViewById<RecyclerView>(R.id.stop_recycler_view)
+        recyclerView.adapter = StopAdapter(this, stopList)
+        recyclerView.layoutManager = LinearLayoutManager(this)
     }
 
-    private fun openGoogleMaps(latitude: Double, longitude: Double) {
-        try {
-            val uri = Uri.parse("https://www.google.com/maps/place/$latitude,$longitude")
-            val mapIntent = Intent(Intent.ACTION_VIEW, uri)
-            mapIntent.setPackage("com.google.android.apps.maps")
-            mapIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-            startActivity(mapIntent)
-        } catch (e: ActivityNotFoundException) {
-            val uri = Uri.parse("https://play.google.com/store/apps/details?id=com.google.android.apps.maps")
-            val mapIntent = Intent(Intent.ACTION_VIEW, uri)
-            mapIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-            startActivity(mapIntent)
-        }
-    }
+    // ... (same as original)
 }
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/stop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

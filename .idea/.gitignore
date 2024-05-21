@@ -1,3 +1,69 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+/workspace\.xml$/
+
+# Ignore .pyc files
+*\.pyc$/
+
+# Ignore .swp files
+*\.swp$/
+
+# Ignore .aux files
+*\.aux$/
+
+# Ignore .log files
+*\.log$/
+
+# Ignore .tmp files
+*\.tmp$/
+
+# Ignore .class files
+*\.class$/
+
+# Ignore .jar files
+*\.jar$/
+
+# Ignore .war files
+*\.war$/
+
+# Ignore .ear files
+*\.ear$/
+
+# Ignore .zip files
+*\.zip$/
+
+# Ignore .tar files
+*\.tar$/
+
+# Ignore .gz files
+*\.gz$/
+
+# Ignore .bak files
+*\.bak$/
+
+# Ignore .orig files
+*\.orig$/
+
+# Ignore .rej files
+*\.rej$/
+
+# Ignore .BAK files
+*\.BAK$/
+
+# Ignore .old files
+*\.old$/
+
+# Ignore .bk files
+*\.bk$/
+
+# Ignore .backup files
+*\.backup$/
+
+# Ignore Thumbs.db files
+*\Thumbs.db$/
+
+# Ignore ehthumbs.db files
+*\ehthumbs.db$/
+
+# Ignore Desktop.ini files
+*\Desktop.ini$/
